@@ -33,5 +33,15 @@ button:hover{
     background-color: lightgreen;
     color: black ;
 }
+footer{
 
+    margin-top: 800px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+
+    
     
