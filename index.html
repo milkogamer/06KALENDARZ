@@ -5,11 +5,13 @@
     
     <title>Kalendarz Adwentowy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="MerryChristmasFlake.ttf">
+    <link rel="stylesheet" href="MerryChristmasStar.ttf">
    
 </head>
 <body>
 
-    <h1>Kalendarz Adwentowy</h1>
+    <h1 >Kalendarz Adwentowy</h1>
 
     <table>
        
@@ -99,12 +101,24 @@
                 <td>
                     <a href="https://www.youtube.com/watch?v=E8gmARGvPlI" target="blank"><button type="button"> 24</button></a>
                 </td>
+              <td>
+               <a href="https://www.youtube.com/watch?v=Ptld98KjPuM&ab_channel=KlubKomediowyTV"> <button type="button">Merry Christmas</button></a>
+            </td>
 	</tr>
           
     </table>
-	 <footer>
-        Miłosz Proć 1TP I love everybody 
-    </footer>
+	
+   
+    <script src="snow.js" id="snow"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new Snow('#snow',{
+                number:250,
+                r: 4.5,
+                v: 2.0,
+            });
+        });
+    </script>
 
 </body>
 </html>
