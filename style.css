@@ -1,0 +1,72 @@
+
+body{
+	background-image: url("swieta.jpg" );
+    font-family:Supersnieg;
+    margin:0px;
+    padding:0px;
+   
+    
+    
+
+}
+        table {
+            width: 100%;
+            height: 700px;
+            table-layout:fixed;
+          
+        }
+
+       td{
+            border: 1px solid grey;
+            font-size: 25px;
+            border-radius: 15px;
+          
+        
+
+        }
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: gold;
+   letter-spacing: 8px;
+    
+ 
+}
+button{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 73, 15);
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+
+    
+    color: gold;
+
+}
+button:hover{
+    background-color: lightgreen;
+    color: black ;
+}
+
+
+#snow {
+ 
+    margin:0 auto;
+    display:flex;
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;                      
+    min-width: 100%;
+   
+}
+@font-face
+
+{
+
+font-family: Supersnieg;
+
+src:url(tak.ttf);
+
+}
