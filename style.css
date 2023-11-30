@@ -36,7 +36,9 @@ h2{
 	   text-align: center;
    
     color: gold;
-   letter-spacing: 8px;
+   letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+ 
 
 }
 button{
